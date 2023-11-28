@@ -1,4 +1,4 @@
-name: AzureSpringCloud
+name: Azure-Spring-Cloud
 on: push
     
 env:
