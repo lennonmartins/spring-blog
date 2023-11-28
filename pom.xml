@@ -9,9 +9,9 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>dev.danvega</groupId>
-	<artifactId>spring-blogg</artifactId>
+	<artifactId>spring-blog</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>spring-blogg</name>
+	<name>spring-blog</name>
 	<description>Sample Blog Project used for hosting demos</description>
 	<properties>
 		<java.version>17</java.version>
