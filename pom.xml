@@ -55,6 +55,13 @@
 	<dependencyManagement>
 		<dependencies>
 			<dependency>
+ 				<groupId>com.azure.spring</groupId>
+ 				<artifactId>spring-cloud-azure-dependencies</artifactId>
+ 				<version>5.0.0</version>
+ 				<type>pom</type>
+ 				<scope>import</scope>
+			</dependency>
+			<dependency>
 				<groupId>org.testcontainers</groupId>
 				<artifactId>testcontainers-bom</artifactId>
 				<version>${testcontainers.version}</version>
@@ -69,6 +76,11 @@
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
+			</plugin>
+			<plugin>
+  				<groupId>com.microsoft.azure</groupId>
+				<artifactId>azure-spring-apps-maven-plugin</artifactId>
+				<version>1.15.0</version>
 			</plugin>
 		</plugins>
 	</build>
