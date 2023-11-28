@@ -1,5 +1,7 @@
 name: Azure-Spring
-on: push
+on: 
+  push:
+    branches: [ "main" ]
     
 env:
   ASC_PACKAGE_PATH: ${{ github.workspace }}
